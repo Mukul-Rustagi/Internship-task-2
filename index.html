@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <script src="./script.js" defer></script>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-left">
+        <div class="ml-top">
+          <div class="ml-top-left">
+            <div class="mltl-left">
+              <img src="./assets/logo.png" alt="" />
+            </div>
+            <div class="mltl-right">
+              <div class="mltlr-regions">
+                <div class="text-right-ani">REGIONS</div>
+              </div>
+              <div class="mltlr-mortgage">
+                <div class="text-right-ani">Mortgage</div>
+              </div>
+            </div>
+          </div>
+          <div class="ml-top-right">
+            <div class="mltr-customer relative">
+              Are you a new customer?
+              <div class="text-left-ani"></div>
+            </div>
+            <div class="mltr-enroll">
+              <span class="">Enroll Now</span>
+              <div class="text-left-ani"></div>
+              <div class="enroll-hover">
+                <div class="enroll-hover-heading">Enroll now to:</div>
+                <div class="enroll-hover-points">
+                  <div class="enroll-hover-divs">
+                    <div class="enroll-hover-tick">✓</div>
+                    <div class="enroll-hover-text">
+                      Access your loans online
+                    </div>
+                  </div>
+                  <div class="enroll-hover-divs">
+                    <div class="enroll-hover-tick">✓</div>
+                    <div class="enroll-hover-text">
+                      Pay your mortgage online
+                    </div>
+                  </div>
+                  <div class="enroll-hover-divs">
+                    <div class="enroll-hover-tick">✓</div>
+                    <div class="enroll-hover-text">
+                      View your mortgage statements
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hover-arrow"></div>
+            </div>
+          </div>
+        </div>
+        <div class="ml-mid">
+          <div class="mlm-top">
+            <h1 class="mlmt-heading relative">
+              <div class="ani-upward">Welcome Back</div>
+            </h1>
+            <p class="mlmt-para">Sign in to your Regions MyMortgage account.</p>
+          </div>
+          <form class="mlm-mid" id="form" action="#">
+            <div class="form-inp-div">
+              <input
+                type="text"
+                class="form-inp"
+                name="onlineid"
+                id="onlineid"
+                placeholder="Online Id"
+              />
+              <label for="onlineid" class="form-inp-label">Online ID</label>
+            </div>
+            <div class="form-inp-div">
+              <input
+                type="password"
+                class="form-inp"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <label for="password" class="form-inp-label">Password</label>
+              <p class="password-show" id="show-password">Show</p>
+            </div>
+            <div class="form-input-checkbox">
+              <input type="checkbox" id="remember" name="remember" />
+
+              <label for="remember" class="inp-remember"></label>
+              <label for="remember" class="inp-remember-label"
+                >Remember me</label
+              >
+            </div>
+            <button  type="submit" class="login" id="login">
+              <div class="login-text">Login</div>
+              <div class="login-ani">
+                <div class="login-ani-circle"></div>
+              </div>
+            </button>
+          </form>
+          <div class="mlm-bottom">
+            <a href="">Forgot Online ID?</a>
+            <p class="">•</p>
+            <a href="">Forgot Password?</a>
+          </div>
+        </div>
+        <div class="ml-bottom">
+          <div class="mlb-para">
+            <p>🏠︎</p>
+            <p>Equal Housing Lender</p>
+            <p>•</p>
+            <p>Member FDIC</p>
+          </div>
+          <div class="mlb-para">
+            <p>&copy; Regions Financial Corporation All Rights Reserved</p>
+            <p class="">•</p>
+            <p class="green">1 (800) REGIONS</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-right"></div>
+    </div>
+  </body>
+</html>
